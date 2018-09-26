@@ -1,6 +1,8 @@
 # typecast.vim
 Typecast is a plugin to add type cast surrouding. 
 
+support [repeat.vim](https://github.com/tpope/vim-repeat/). 
+
 # Screenshots
 
 # Install

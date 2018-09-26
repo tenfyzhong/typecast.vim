@@ -15,6 +15,7 @@ Contents:
 0. Introduction                                  *typecast-introduction*
 
 typecast is a plugin to add type cast surrouding. 
+support [repeat.vim](https://github.com/tpope/vim-repeat/). 
 
 
 ================================================================================
