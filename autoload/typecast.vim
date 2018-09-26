@@ -9,9 +9,12 @@
 
 let s:last_cast_type = ''
 
+nnoremap <silent> <plug>typecast_repeat .
+
 
 function! typecast#opfunc(type, ...) abort 
   call typecast#do(a:type, "'[", "']")
+  silent! call repeat#set("\<plug>typecast_repeat"."\<cr>")
 endfunction 
 
 function! typecast#visual() abort
@@ -37,7 +40,7 @@ function! typecast#do(type, begin_pos_expr, end_pos_expr) abort
   call setpos('.', end_pos)
   normal! ""p
 
-  call setreg('"', cast_type . '(', 'v')
+  call setreg('"', s:last_cast_type . '(', 'v')
   call setpos('.', begin_pos)
   normal! ""P
 
