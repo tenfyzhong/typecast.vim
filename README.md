@@ -1,6 +1,6 @@
 # typecast.vim
 [![Build Status](https://travis-ci.org/tenfyzhong/typecast.vim.svg?branch=master)](https://travis-ci.org/tenfyzhong/typecast.vim)
-[![Build Status](https://travis-ci.org/tenfyzhong/typecast.vim.svg?branch=master)](https://travis-ci.org/tenfyzhong/typecast.vim)
+[![GitHub tag](https://img.shields.io/github/tag/tenfyzhong/typecast.vim.svg)](https://github.com/tenfyzhong/typecast.vim/tags)
 [![doc](https://img.shields.io/badge/doc-%3Ah%20typecast-yellow.svg?style=flat)](https://github.com/tenfyzhong/typecast.vim/blob/master/doc/typecast.txt)
 
 Typecast is a plugin to add type cast surrouding. 
