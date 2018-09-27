@@ -8,6 +8,7 @@ Typecast is a plugin to add type cast surrouding.
 support [repeat.vim](https://github.com/tpope/vim-repeat/). 
 
 # Screenshots
+![screenshot](https://github.com/tenfyzhong/typecast.vim/blob/develop/.resource/typecast1.gif)
 
 # Install
 I suggest you to use a plugin manager, such vim-plug or other.
