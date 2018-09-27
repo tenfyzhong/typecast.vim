@@ -1,0 +1,18 @@
+Given(success):
+  hello := world
+Execute:
+  call setpos("'b", [0, 1, 10, 0])
+  call setpos("'d", [0, 1, 14, 0])
+  call typecast#do('', 'int64', "'b", "'d")
+Expect:
+  hello := int64(world)
+
+
+Given(empty type):
+  hello := world
+Execute:
+  call setpos("'b", [0, 1, 10, 0])
+  call setpos("'d", [0, 1, 14, 0])
+  call typecast#do('', '', "'b", "'d")
+Expect:
+  hello := world

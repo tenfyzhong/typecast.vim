@@ -1,0 +1,64 @@
+*typecast* *typecast.txt* author: tenfyzhong
+
+This help file explains the typecast Vim Plugin. 
+
+================================================================================
+Contents:
+0. Introduction -------------------------------- |typecast-introduction|
+1. Install ------------------------------------- |typecast-install|
+2. Usage --------------------------------------- |typecast-usage|
+3. Mapping ------------------------------------- |typecast-mapping|
+4. LICENSE ------------------------------------- |typecast-license|
+
+
+================================================================================
+0. Introduction                                  *typecast-introduction*
+
+typecast is a plugin to add type cast surrouding. 
+support [repeat.vim](https://github.com/tpope/vim-repeat/). 
+
+
+================================================================================
+1. Install                                       *typecast-install*
+I suggest you to use a plugin manager, such vim-plug or other.
+- [vim-plug](https://github.com/junegunn/vim-plug) >
+  Plug 'tenfyzhong/typecast.vim' 
+<
+
+- Manual >
+  git clone https://github.com/tenfyzhong/typecast.vim.git ~/.vim/bundle/typecast.vim
+  echo 'set rtp+=~/.vim/bundle/typecast.vim' >> ~/.vimrc
+  vim -c 'helptag ~/.vim/bundle/typecast.vim/doc' -c qa!
+<
+
+
+================================================================================
+2. Usage                                         *typecast-usage*
+
+2.1 normal mode
+Type `<leader>ct`(default mapping) and a motion, and then it will prompt to
+input a type. It will add `type(**)` to surround the motion selected words.
+`**` is the motion selected words. 
+
+2.2 visual mode
+Select the words to cast, and then type `<leader>ct`(default mapping).
+
+
+================================================================================
+3. Mapping                                       *typecast-mapping*
+                                                 *<Plug>typecast*
+`<Plug>typecast`                    
+Trigger the type casting. Support normal and visual mode. In the normal mode, 
+it will wait a motion to surround with `()`. In the visual mode, it will 
+surround the selected words. 
+
+default mapping: >
+  nmap <leader>ct <Plug>typecast
+  xmap <leader>ct <Plug>typecast
+<
+
+================================================================================
+4. LICENSE                                       *typecast-license*
+MIT License Copyright (c) 2018 tenfyzhong
+
+" vim:ft=help:iskeyword+=-:iskeyword+=58:iskeyword+=#
