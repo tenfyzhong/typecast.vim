@@ -1,4 +1,8 @@
 # typecast.vim
+[![Build Status](https://travis-ci.org/tenfyzhong/typecast.vim.svg?branch=master)](https://travis-ci.org/tenfyzhong/typecast.vim)
+[![Build Status](https://travis-ci.org/tenfyzhong/typecast.vim.svg?branch=master)](https://travis-ci.org/tenfyzhong/typecast.vim)
+[![doc](https://img.shields.io/badge/doc-%3Ah%20typecast-yellow.svg?style=flat)](https://github.com/tenfyzhong/typecast.vim/blob/master/doc/typecast.txt)
+
 Typecast is a plugin to add type cast surrouding. 
 
 support [repeat.vim](https://github.com/tpope/vim-repeat/). 
