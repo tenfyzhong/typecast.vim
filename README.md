@@ -13,12 +13,16 @@ support [repeat.vim](https://github.com/tpope/vim-repeat/).
 # Install
 I suggest you to use a plugin manager, such vim-plug or other.
 - [vim-plug](https://github.com/junegunn/vim-plug) 
-  Plug 'tenfyzhong/typecast.vim' 
+```viml
+Plug 'tenfyzhong/typecast.vim' 
+```
 
 - Manual 
-  git clone https://github.com/tenfyzhong/typecast.vim.git ~/.vim/bundle/typecast.vim
-  echo 'set rtp+=~/.vim/bundle/typecast.vim' >> ~/.vimrc
-  vim -c 'helptag ~/.vim/bundle/typecast.vim/doc' -c qa!
+```sh
+git clone https://github.com/tenfyzhong/typecast.vim.git ~/.vim/bundle/typecast.vim
+echo 'set rtp+=~/.vim/bundle/typecast.vim' >> ~/.vimrc
+vim -c 'helptag ~/.vim/bundle/typecast.vim/doc' -c qa!
+```
 
 # Usage
 ### normal mode
